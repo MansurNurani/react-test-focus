@@ -1,0 +1,28 @@
+#BottomBox {
+  position: absolute;
+  border: 2px solid red;
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+  top: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 10;
+  margin-top: 5px;
+}
+#MainDiv {
+    margin:0 auto;
+    position: relative;
+    width: 200px;
+}
+#InputDiv {
+}
+#MainInput {
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  font-family: "Tahoma";
+  font-size: 15px;
+  direction: rtl;
+}
