@@ -3,13 +3,17 @@ import MyInput from './Components/MyInput';
 
 function App() {
   return (
-    <div style={{width:"410px",margin:"0 auto"}}>
+    <div style={{ width: "660px", margin: "50px auto 0 auto" }}>
       <div className="AppDiv">
-        <MyInput />
+        <MyInput Content="Content1" />
       </div>
-      &nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <div className="AppDiv">
-        <MyInput />
+        <MyInput Content="Content2" />
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div className="AppDiv">
+        <MyInput Content="Content3" />
       </div>
     </div>
   );

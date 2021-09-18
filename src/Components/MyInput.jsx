@@ -16,7 +16,7 @@ export default class MyInput extends Component {
         <div id="InputDiv">
           <input id="MainInput" onFocus={this.handleFocus} onBlur={this.handleBlur} type="text" />
         </div>
-        {this.state.showBottomBox && <div id="BottomBox">Content</div>}
+        {this.state.showBottomBox && <div id="BottomBox">{this.props.Content}</div>}
       </div>
     );
   }
