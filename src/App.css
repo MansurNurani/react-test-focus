@@ -1,5 +1,6 @@
-#AppDiv {
-  width: 400px;
+.AppDiv {
+  display: inline-block;
+  width: 200px;
   margin: 0px auto;
   /* border:1px solid black; */
 }
